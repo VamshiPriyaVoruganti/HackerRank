@@ -1,0 +1,15 @@
+"""from itertools import product
+n,k = raw_input().split()
+l1=[]; i=-1 
+total=0
+arrayN = []
+for _i_ in range(int(n)):
+    arrayN.append([int(x) for x in raw_input().split()][0:])
+l=list(product(*arrayN))
+for x in l:
+    for i in x: 
+        total+=i*i
+        total=total%int(k)
+        l1.append(total)
+    total=0
+print max(l1)"""
